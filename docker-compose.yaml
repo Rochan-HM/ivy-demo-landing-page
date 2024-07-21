@@ -3,3 +3,5 @@ version: '3.7'
 services:
   nginx:
     build: .
+    labels:
+      - traefik.http.middlewares.auth.basicauth.users=dev:$$apr1$$BnT$itPhBlV8XldlmlWg2HjErK user:$$apr1$$BnT$itPhBlV8XldlmlWg2HjErK
