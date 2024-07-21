@@ -4,4 +4,4 @@ services:
   nginx:
     build: .
     labels:
-      - traefik.http.middlewares.auth.basicauth.users=dev:$$apr1$$BnT$itPhBlV8XldlmlWg2HjErK user:$$apr1$$BnT$itPhBlV8XldlmlWg2HjErK
+      - traefik.http.middlewares.ivydemolandingpage.basicauth.users=dev:$$apr1$$BnT$itPhBlV8XldlmlWg2HjErK user:$$apr1$$BnT$itPhBlV8XldlmlWg2HjErK
